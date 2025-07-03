@@ -2,12 +2,13 @@
     package="com.example.randomguess">
 
     <application
-        android:label="Random Guess App"
+        android:label="Random Guess Game"
         android:theme="@android:style/Theme.DeviceDefault"
         android:supportsRtl="true"
         android:allowBackup="true">
 
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity android:name=".MainActivity"
+                  android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
