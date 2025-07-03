@@ -1,4 +1,4 @@
 #!/bin/sh
-# Wrapper script for Unix
+# Gradle wrapper shell script
 DIR="$( cd "$( dirname "$0" )" && pwd )"
-exec "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
+exec java -jar "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
