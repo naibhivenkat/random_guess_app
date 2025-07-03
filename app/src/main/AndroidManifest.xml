@@ -1,9 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.randomguess">
+
     <application
-        android:allowBackup="true"
-        android:label="Random Guess"
-        android:supportsRtl="true"
+        android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
