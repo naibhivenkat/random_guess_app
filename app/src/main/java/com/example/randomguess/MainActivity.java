@@ -4,7 +4,10 @@ import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import android.app.Activity;
+
+public class MainActivity extends Activity {
+
     static {
         System.loadLibrary("python3.10");
     }
