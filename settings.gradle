@@ -1,1 +1,2 @@
+rootProject.name = "random_guess_app"
 include ':app'
