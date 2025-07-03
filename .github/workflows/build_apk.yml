@@ -25,3 +25,9 @@ jobs:
 
     - name: Build Debug APK
       run: ./gradlew assembleDebug
+
+    - name: 📦 Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Guess_The_Number_Release
+        path: bin/*.apk
